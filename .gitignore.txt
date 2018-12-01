@@ -1,2 +1,2 @@
 *.mat
-itm_formatfig.m
+**/itm_formatfig.m
