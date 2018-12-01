@@ -1,2 +1,3 @@
 *.mat
-**/**/**/itm_formatfig.m
+Decentralized_multi_agents/Scripts/itm_formatfig.m
+**/Scripts/itm_formatfig.m
