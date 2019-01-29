@@ -11,7 +11,7 @@ warning off
 
 % Optmization hyperparameters
 param.timesteps = 50; % Horizon(in the paper its called timesteps)
-param.samples = 2000; % Number of samples
+param.samples = 500; % Number of samples
 param.iterations = 5000; % Number of iterations
 param.xmeasure = [6.5 10 0 0 pi/2 0 0 0 0 0];    %Initial conditions (x-position,y-position,velocity,
                                                 %side slip angle,yaw angle,zaw rate, x-velocity, y velocity, yaw rate(redundant),

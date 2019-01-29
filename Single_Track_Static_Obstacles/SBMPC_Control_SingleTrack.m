@@ -102,11 +102,11 @@ for loop = 0:1:iterations
     end
     
     % Solver
-    [t_f, next_state] = ode45(@(t,x)system_dynamics(t, x ,u(1,:),dW), [tmeasure tmeasure+dT], xmeasure);
-    %     [ next_state] = ode1(@(t,x)system_dynamics(t, x ,u(1,:),dW), [tmeasure tmeasure+dT], xmeasure);
+%     [t_f, next_state] = ode45(@(t,x)system_dynamics(t, x ,u(1,:),dW), [tmeasure tmeasure+dT], xmeasure);
+        [ next_state] = ode1(@(t,x)system_dynamics(t, x ,u(1,:),dW), [tmeasure tmeasure+dT], xmeasure);
     
-    tmeasure = t_f(end,:);
-    % tmeasure = tmeasure+dT;
+%     tmeasure = t_f(end,:);
+    tmeasure = tmeasure+dT;
     
     
     % Checks if obstacle was hit
