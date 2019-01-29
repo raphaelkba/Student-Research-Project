@@ -9,15 +9,12 @@ Comparison of inverted pendulum controlled by a Nonlinear MPC and the Informatio
 # Single Track Model
 Single track model controlled by the Information Theoretic MPC in different situations
 * Dynamic Obstacles
-![Dynamic Obstacles](dynamic_obstacles.gif)
+	*![Dynamic Obstacles](dynamic_obstacles.gif)
 * Racetrack
-
-[](eight_track.gif)
+	*![Racetrack](eight_track.gif)
 * Sharp corners
-
-[](square_track.gif)
+	*![Sharp corners](square_track.gif)
 * Static obstacles
-
-[](static_obstacles.gif)
+	*![Static obstacles](static_obstacles.gif)
 
 
