@@ -7,7 +7,7 @@ This section provides animations made with the repository code. The first exampl
 
 Comparison of inverted pendulum controlled by a Nonlinear MPC and the Information Theoretic MPC
 
-<img src="https://github.com/raphaelkba/Student-Research-Project/tree/master/Gifs/dynamic_obstacles.gif">
+![2](https://github.com/raphaelkba/Student-Research-Project/tree/master/Gifs/dynamic_obstacles.gif)
 
 # Single Track Model
 Single track model controlled by the Information Theoretic MPC in different situations
